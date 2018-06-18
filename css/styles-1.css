@@ -1,19 +1,57 @@
 @charset "utf-8";
-/* PHONE SCREENS */
-@media only screen and (min-width: 300px) {
-	#neighborhoods-select, #cuisines-select {
-		font-size:30pt;
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 300px) {
+	body {
+		background-color: blue;
 	}
-	h1 {
-		font-size: 4em;
+	#main-title {
+		font-size: 2em;
+	}
+	select#neighborhoods-select,  select#cuisines-select{
+		width: 90vw;
+		background-color: white;
+		font-size: 16pt;
+		margin: 0.5em;
+		padding: 1em;
+		font-size: 16pt;
 	}
 }
-@media only screen and (min-width: 600px) {
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	body {
+		background-color: red;
+	}
+	p.neighborhood-type {
+		font-size: 0.75em;
+	}
+	#more-details {
+		font-size: 0.75em;
+		padding: 2em 0;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	body {
+		background-color: orange;
+	}
 
 }
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	body {
+		background-color: blue;
+	}
+}
 
-
+#neighborhoods-select, #cuisines-select {
+	font-size:30pt;
+}
+h1 {
+	font-size: 4em;
+}
 body, td, th, p{
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
@@ -36,9 +74,6 @@ img {
 img, li {
 	width: 90vw;
 }
-p {
-	padding: 0;
-}
 li {
 	border-radius: 25px;
 	background-color: #f3f3f3;
@@ -56,21 +91,15 @@ footer {
 	line-height: 20vh;
 	letter-spacing: 5px;
 }
+p {
+	text-transform: uppercase;
+	padding-top: 1em;
 
-#neighborhoods-select, #cuisines-select {
-	width: 40vw;
-	background-color: white;
-	font-family: Arial,sans-serif;
-	font-size:20pt;
-	margin: 2em 0.5em;
-	padding: 1em 2em;
-	min-width: 48px;
-	min-height: 48px;
-	border-radius: 100px;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-	border: 0;
-
+	margin: 0;
+	font-size: 0.75em;
+	letter-spacing: 10px
 }
+
 p.neighborhood-type {
 	border-radius: 50px;
 	text-transform: uppercase;
@@ -81,13 +110,7 @@ p.neighborhood-type {
 	font-weight: bold;
 	color: #9b9b9b;
 }
-p {
-	text-transform: uppercase;
-	padding-top: 1em;
-	margin: 0;
-	font-size: 0.5em;
-	letter-spacing: 10px
-}
+
 #main-title {
 	height: 30vh;
 	text-align: center;
