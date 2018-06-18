@@ -20,7 +20,7 @@
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 	body {
-		background-color: red;
+		background-color: red; 
 	}
 	p.neighborhood-type {
 		font-size: 0.75em;
