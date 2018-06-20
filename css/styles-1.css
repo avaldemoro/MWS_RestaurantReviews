@@ -80,7 +80,7 @@
 		margin: 3em 0.5em;
 	}
 	#cover-image > #restaurant-img {
-		margin: -30vh 0;
+		margin: -20vh 0;
 	}
 
 
@@ -120,6 +120,10 @@
 	#restaurant-hours {
 		font-size: 1em;
 	}
+	#cover-image > #restaurant-img {
+		margin: -30vh 0;
+	}
+
 
 }
 
