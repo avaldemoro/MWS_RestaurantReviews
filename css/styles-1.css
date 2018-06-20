@@ -7,10 +7,6 @@
 	footer {
 		line-height: 10vh;
 	}
-	li {
-		margin-bottom: 0.5em;
-	}
-
 	p {
 		font-weight: lighter;
 		font-size: 1.25em;
@@ -51,13 +47,6 @@
 	body {
 		background-color: #f7f7f7;
 	}
-	li {
-		margin-top: 0;
-		margin-bottom: 0.5em;
-	}
-	nav {
-		padding: 10vh 0;
-	}
 	p {
 		font-size: 1.25em;
 		padding: 0 1em;
@@ -67,7 +56,7 @@
 		font-weight: 100;
 	}
 	#restaurant-container > #restaurant-name {
-		font-size: 6em;
+		font-size: 3em;
 	}
 	#main-title {
 		margin-top: 3em;
@@ -90,6 +79,9 @@
 		width: 45vw;
 		margin: 3em 0.5em;
 	}
+	#cover-image > #restaurant-img {
+		margin: -30vh 0;
+	}
 
 
 }
@@ -98,9 +90,6 @@
 @media only screen and (min-width : 768px) {
 	body {
 		background-color: #f7f7f7;
-	}
-	li {
-		margin-bottom: 2em;
 	}
 	p {
 		padding: 1em 2em;
@@ -125,7 +114,7 @@
 		height: 60vh;
 	}
 	#more-details {
-		font-size: 1em;
+		font-size: 0.75em;
 		padding: 2em 0;
 	}
 	#restaurant-hours {
@@ -154,7 +143,6 @@
 
 	.columns {
 		float: left;
-		margin: 0;
 		position: relative;
 	}
 }
@@ -185,10 +173,13 @@ h1 {
 	font-size: 2.5em;
 	font-weight:lighter;
 }
+h2 {
+	margin-bottom: 0;
+}
 h2, h3 {
 	font-family: 'Pacifico', cursive;
 	color: #fbab7e;
-	font-size: 3em;
+	font-size: 2em;
 	font-weight:lighter;
 }
 img, embed, object, video {
@@ -197,17 +188,13 @@ img, embed, object, video {
 img, li {
 	width: 100%;
 }
-img {
-	border-radius: 25px 25px 0 0;
-}
 li {
-	border-radius: 25px;
 	background-color: #fff;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+	box-shadow: 5px 5px 8px 0 rgba(46,61,73, 0.2);
 	display: inline-block;
+	margin: 0 0 1.75rem;
 }
 neighborhood-type {
-	border-radius: 50px;
 	text-transform: uppercase;
 	padding-top: 1em;
 	margin: 0;
@@ -225,10 +212,10 @@ p#restaurant-cuisine {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 	background: linear-gradient(62deg, #fbab7e, #f7ce68);
 	color: #fff;
-	border-radius: 0 0 15px 15px;
 	letter-spacing: 1em;
 	font-weight: 100;
 	padding: 0.5em;
+	text-transform: uppercase;
 }
 ul {
 	list-style-type: none;
@@ -282,8 +269,7 @@ ul {
 	border: 0;
 	color: #fff;
 	display: block;
-	border-radius: 0 0 25px 25px;
-	padding: 1em 0;
+	padding: 1.5em 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	margin-top: 1em;
@@ -296,9 +282,16 @@ ul {
 	background-color: #ccc;
 	box-shadow: 0 15px 36px rgba(0, 0, 0, 0.1);
 }
-#restaurant-container > #restaurant-img {
- 	border-radius: 15px 15px 0 0;
-
+#cover-image > #restaurant-img {
+	box-shadow: 5px 5px 8px 0 rgba(46,61,73, 0.2);
+	display:block;
+	width: 100%;
+}
+#cover-image {
+	width: 100%;
+	height 50vh;
+	overflow: hidden;
+	margin: 0;
 }
 #restaurant-container > #restaurant-name {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -326,7 +319,6 @@ td {
 }
 .columns {
 	float: left;
-	margin: 0;
 	position: relative;
 }
 .inside #map-container {
