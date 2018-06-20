@@ -3,7 +3,11 @@
 #### Redesign - Restaurant Reviews Project
 
 ## Project Overview: Stage 1
-This particular repository is Stage 1 of a 3 part project that is part of the Udacity Mobile Web Specialist Nanodegree Program. The starter code for this repository could be found [here](https://github.com/udacity/mws-restaurant-stage-1).
+This particular repository is Stage 1 of a 3 part project that is part of the Udacity Mobile Web Specialist Nanodegree Program. The starter code for this repository could be found [here](https://github.com/udacity/mws-restaurant-stage-1). This site was redesigned without the help of a CSS framework. 
+
+![Screenshot](screenshots/index-ss.png)
+![Screenshot](screenshots/list-ss.png)
+
 
 This series of projects incrementally convert a static webpage to a mobile-ready web application. During **Stage One**, a website that has a static design and lacks accessibility is transformed into a responsive and accessible for screen reader use site. A service worker is also added to begin the process of creating a seamless offline experience. 
 
@@ -18,8 +22,9 @@ This series of projects incrementally convert a static webpage to a mobile-ready
     
 3. With the server running, visit `http://localhost:8000`.
     
-
-
+### Initial Website Before Redesign
+![Screenshot](screenshots/old1-ss.png)
+![Screenshot](screenshots/old2-ss.png)
 
 
 
