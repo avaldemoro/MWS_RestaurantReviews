@@ -23,7 +23,7 @@ This series of projects incrementally convert a static webpage to a mobile-ready
 3. With the server running, visit `http://localhost:8000`.
 
 ### Leaflet.js and Mapbox
-This repository uses leafletjs with Mapbox. You need to replace <your MAPBOX API KEY HERE> with a token from Mapbox. Mapbox is free to use, and does not require any payment information.
+This repository uses leafletjs with Mapbox. You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.  Mapbox is free to use, and does not require any payment information.
     
 ### Initial Website Before Redesign
 ![Screenshot](screenshots/old1-ss.png)
